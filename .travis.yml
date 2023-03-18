@@ -1,0 +1,7 @@
+sudo: required
+services:
+- docker
+
+script:
+- docker build -t khadipro/node2 .
+- docker images khadipro/node2
